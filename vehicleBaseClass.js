@@ -9,6 +9,7 @@ class Vehicle {
         this.mileage = mileage;
         this.started = false;
         this.numberOfWheels = 0;
+        
     }
 
     start() {
@@ -30,7 +31,7 @@ class Vehicle {
                 this.stop();
             }
         } else {
-            alert("You need to start the engine first.");
+            console.log("You need to start the engine first.");
         }
     }
     decelerate() {
@@ -48,7 +49,7 @@ class Vehicle {
                 this.stop();
             }
         } else {
-            alert("You need to start the engine first.");
+            console.log("You need to start the engine first.");
         }
     }
     stop() {
